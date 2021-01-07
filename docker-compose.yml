@@ -12,6 +12,7 @@ services:
       DB_PASSWORD: secret
       TOKEN_SECRET: change_me_in_production
       APP_URL: 'localhost:5000'
+      NODE_ENV: 'development'
     depends_on:
       - db
     ports:
