@@ -15,6 +15,9 @@
 // (if you're using LESS with the built-in default config, you'll want
 //  to change `assets/styles/importer.less` instead.)
 var cssFilesToInject = [
+  //bower
+  'bower_components/angular-ui-notification/dist/angular-ui-notification.css',
+  //END:bower
   'styles/**/*.css'
 ];
 
@@ -22,6 +25,30 @@ var cssFilesToInject = [
 // Client-side javascript files to inject in order
 // (uses Grunt-style wildcard/glob/splat expressions)
 var jsFilesToInject = [
+  //bower
+  'bower_components/angular/angular.js',
+  'bower_components/jquery/dist/jquery.js',
+  'bower_components/angular-animate/angular-animate.js',
+  'bower_components/angular-messages/angular-messages.js',
+  'bower_components/angular-route/angular-route.js',
+  'bower_components/angular-sanitize/angular-sanitize.js',
+  'bower_components/angular-xeditable/dist/js/xeditable.min.js',
+  'bower_components/lodash/lodash.js',
+  'bower_components/angular-ui-notification/dist/angular-ui-notification.js',
+  'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
+  'bower_components/angular-confirm-modal/angular-confirm.min.js',
+  'bower_components/angular-jwt/dist/angular-jwt.js',
+  'bower_components/ngstorage/ngStorage.js',
+  'bower_components/sails.io.js/dist/sails.io.js',
+  'bower_components/angular-sails/dist/angular-sails.js',
+  'bower_components/moment/moment.js',
+  'bower_components/angular-moment/angular-moment.js',
+  'bower_components/ng-file-upload/ng-file-upload.js',
+  'bower_components/angular-PubSub/src/angular-pubsub.js',
+  'bower_components/re-tree/re-tree.js',
+  'bower_components/ng-device-detector/ng-device-detector.js',
+  'bower_components/compare-versions/index.js',
+  //END:bower
 
   'js/main.js',
 

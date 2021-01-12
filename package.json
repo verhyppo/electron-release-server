@@ -48,7 +48,8 @@
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "node app.js",
+    "start": "NODE_ENV=production node app.js",
+    "dev:start": "NODE_ENV=development node app.js",
     "migrate": "db-migrate",
     "postinstall": "bower install",
     "eslint": "eslint ./*.js api assets/js config migrations tasks",
